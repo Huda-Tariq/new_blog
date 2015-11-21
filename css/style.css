@@ -1,0 +1,41 @@
+.logo {
+	background-image: 1em
+	background-color: #A1D9D1;
+	font-size: 16px; 
+}
+
+h1, h2 {
+	font-family: Arial;
+	color: #999999;
+}
+
+h1{
+	font-size: 32px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+
+.fluid {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+@media (min-width: 600px){
+	
+	{
+		font-size: 18px;
+		background-color: tomato;
+	}
+	.container {
+		width: 600px;
+	}
+
+}
+
+
